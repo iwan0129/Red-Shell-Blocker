@@ -21,7 +21,7 @@
   <h3 align="center">Red Shell Blocker</h3>
 
   <p align="center">
-    Blocks Red Shell Spyware
+    Script That Blocks Red Shell Spyware
     <br />
     <a href="https://github.com/iwan0129/Red-Shell-Blocker"><strong>Explore the docs »</strong></a>
     <br />
