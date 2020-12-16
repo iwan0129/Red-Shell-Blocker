@@ -70,7 +70,7 @@ git clone https://github.com/iwan0129/Red-Shell-Blocker.git
 
 ## Usage
 
-Run the program.<br>
+Run the script.<br>
 Wait for it to block all Red Shell Entries in Hosts.<br>
 Close The Program.<br>
 
