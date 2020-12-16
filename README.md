@@ -70,10 +70,9 @@ git clone https://github.com/iwan0129/Red-Shell-Blocker.git
 
 ## Usage
 
-### Youtube Converter
-Start the program.<br>
-Once the program outputs to enter url copy the url of the youtube video and paste it.<br>
-Then press enter and wait for the program to convert the video<br>
+Run the program.<br>
+Wait for it to block all Red Shell Entries in Hosts.<br>
+Close The Program.<br>
 
 ## Roadmap
 
