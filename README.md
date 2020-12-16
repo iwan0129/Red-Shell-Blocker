@@ -51,11 +51,7 @@
 
 ## About The Project
 
-# Youtube Converter
 ![Screenshot]
-
-# Youtube Converter GUI 
-![Screenshot-2]
 
 Script That Blocks Red Shell Spyware
 
