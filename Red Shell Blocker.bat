@@ -4,13 +4,13 @@
 :: Check if the user has admin rights.
 ::: If the user doesn't have admin rights make attempt to get and relaunch
 :---------------------------------------------------------------------------------------------------------
-if "%PROCESSOR_ARCHITECTURE%" EQU "amd64" (
+if "%PROCESSOR_ARCHITECTURE%" == "amd64" (
     >nul 2>&1 "%SYSTEMROOT%\SysWOW64\cacls.exe" "%SYSTEMROOT%\SysWOW64\config\system"
 ) else (
     >nul 2>&1 "%SYSTEMROOT%\system32\cacls.exe" "%SYSTEMROOT%\system32\config\system"
 )
 
-if '%errorlevel%' NEQ '0' (
+if not '%ERRORLEVEL%' == '0' (
     echo Requesting administrative privileges...
     goto UACPrompt
 ) else ( goto gotAdmin )
@@ -57,10 +57,10 @@ goto loop
 :check_entry
 find /c "%~1" %hostspath% > NUL
 if %ERRORLEVEL% == 0 (
-    echo %~1 Found in Hosts File
+    echo %~1 Found
     echo.
 ) else (
-    echo %~1 Missing. Adding it now   
+    echo %~1 Missing. Adding It Now   
 
     if %add_line% == 1 (
        echo. >> %hostspath%
