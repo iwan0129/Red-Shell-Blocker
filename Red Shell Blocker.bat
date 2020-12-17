@@ -2,7 +2,7 @@
 
 :: https://sites.google.com/site/eneerge/scripts/batchgotadmin
 :: Check if the user has admin rights.
-::: If the user doesn't have admin rights relaunch and attempt to get admin rights.
+::: If the user doesn't have admin rights make attempt to get and relaunch
 :---------------------------------------------------------------------------------------------------------
 if "%PROCESSOR_ARCHITECTURE%" EQU "amd64" (
     >nul 2>&1 "%SYSTEMROOT%\SysWOW64\cacls.exe" "%SYSTEMROOT%\SysWOW64\config\system"
