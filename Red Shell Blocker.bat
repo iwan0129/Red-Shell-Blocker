@@ -46,7 +46,7 @@ CALL :check_entry "0.0.0.0 t.redshell.io"
 CALL :check_entry "0.0.0.0 innervate.us"
 
 echo.
-echo Finnished Checking. You Can Close The Program Now
+echo Finnished Checking. You Can Close The Window Now
 echo.
 echo.
 
