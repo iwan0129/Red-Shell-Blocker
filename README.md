@@ -53,8 +53,6 @@
 
 ![Screenshot]
 
-Script That Blocks Red Shell Spyware
-
 ## Getting Started
 
 ### Prerequisites
